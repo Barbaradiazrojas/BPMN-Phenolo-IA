@@ -63,10 +63,16 @@ body {
    CABECERA
    ============================================================ */
 .page-header {
+  position: relative;
   text-align: center;
   margin-bottom: 28px;
-}
-.page-header .brand-tag {
+}.logo {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 120px;
+  height: auto;
+}.page-header .brand-tag {
   display: inline-block;
   background: rgba(255,255,255,0.18);
   color: #b3d9ff;
