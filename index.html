@@ -9,9 +9,6 @@
 </head>
 <body>
 
-<!-- ============================================================
-     CABECERA
-     ============================================================ -->
 <header class="page-header">
   <div class="brand-tag">Phenolo IA · Modelo SaaS · AgTech</div>
   <h1>💼 Diagrama BPMN — Comercialización Post-Piloto</h1>
@@ -19,12 +16,14 @@
 </header>
 
 <!-- ============================================================
-     TIERS DE PRECIO
+     TARJETAS DE PRECIO
      ============================================================ -->
 <section class="pricing-section">
   <div class="tier-card basic">
-    <h3>🌱 Basic</h3>
-    <div class="price">$29.990 / mes</div>
+    <h3>🌱 Básico</h3>
+    <div class="price">0,5 UF / ha / temporada</div>
+    <div class="price-sub">+ IVA · Pago anual</div>
+    <div class="price-usd">Máx. USD 100 / ha / temporada</div>
     <ul>
       <li>1 – 50 hectáreas</li>
       <li>2 especies vegetales</li>
@@ -32,10 +31,13 @@
       <li>Dashboard web</li>
       <li>Soporte por email</li>
     </ul>
+    <div class="freemium-badge">✦ Freemium disponible</div>
   </div>
   <div class="tier-card pro">
-    <h3>🚀 Professional</h3>
-    <div class="price">$79.990 / mes</div>
+    <h3>🚀 Profesional</h3>
+    <div class="price">1 UF / ha / temporada</div>
+    <div class="price-sub">+ IVA · Pago anual</div>
+    <div class="price-usd">Máx. USD 100 / ha / temporada</div>
     <ul>
       <li>51 – 200 hectáreas</li>
       <li>5 especies vegetales</li>
@@ -46,7 +48,9 @@
   </div>
   <div class="tier-card ent">
     <h3>🏢 Enterprise</h3>
-    <div class="price">Cotización</div>
+    <div class="price">1,5 – 2 UF / ha / temporada</div>
+    <div class="price-sub">+ IVA · Cotización personalizada</div>
+    <div class="price-usd">Máx. USD 100 / ha / temporada</div>
     <ul>
       <li>+200 hectáreas</li>
       <li>Especies ilimitadas</li>
@@ -57,6 +61,11 @@
   </div>
 </section>
 
+<!-- Nota inversión marketing -->
+<div class="marketing-invest-banner">
+  <span>💰 Inversión en Marketing:</span> Monto a definir según hitos de producto y temporada comercial · Modelo mixto: contenidos orgánicos (ago 2026+) + campañas de pago (Q1 2027 cuando el software esté operativo)
+</div>
+
 <!-- ============================================================
      DIAGRAMA DE CARRILES
      ============================================================ -->
@@ -64,7 +73,9 @@
 <div class="diagram-scroll">
 <div class="diagram">
 
-  <!-- ── CARRIL 1: DIRECCIÓN COMERCIAL ── -->
+  <!-- ══════════════════════════════════════════════════════════
+       CARRIL 1: DIRECCIÓN COMERCIAL
+       ══════════════════════════════════════════════════════════ -->
   <div class="lane lane-dir">
     <div class="lane-label">
       <span class="lane-title">Dirección Comercial</span>
@@ -77,37 +88,34 @@
 
         <div class="node node-teal">
           <div class="node-title">Plan de Sostenibilidad</div>
-          <div class="node-detail">Proyecciones financieras post-subsidio</div>
+          <div class="node-detail">Proyecciones financieras post-subsidio · ARR objetivo</div>
         </div>
         <div class="arr c-dark"><div class="line"></div><div class="head">▶</div></div>
 
         <div class="node node-teal">
           <div class="node-title">Preparación Pitch Deck</div>
-          <div class="node-detail">Material para inversionistas</div>
-          <span class="node-tag">Meta: $500M CLP · Mes 11</span>
+          <div class="node-detail">Material para inversionistas ángeles y fondos</div>
+          <span class="node-tag">Mes 11 · USM Lab to Market</span>
         </div>
         <div class="arr c-dark"><div class="line"></div><div class="head">▶</div></div>
 
-        <div class="node node-blue">
-          <div class="node-title">Rondas de Inversión</div>
-          <div class="node-detail">Seed / Series A</div>
-        </div>
-        <div class="arr c-dark"><div class="line"></div><div class="head">▶</div></div>
-
-        <div class="diamond-wrap">
-          <div class="diamond d-orange"><span>+</span></div>
+        <div class="node node-blue" style="max-width:200px;">
+          <div class="node-title">Estrategia de Inversión</div>
+          <div class="node-detail">Ángeles: ~$400k USD (Anacleto Angelini u otros) · Mentores especializados · Plazo / retorno definido</div>
+          <span class="node-tag">USM Lab to Market ✦</span>
         </div>
         <div class="arr c-dark"><div class="line"></div><div class="head">▶</div></div>
 
         <div class="node node-orange">
           <div class="node-title">Definición Modelo SaaS y Precios</div>
-          <div class="node-detail">3 tiers de servicio</div>
-          <span class="node-tag">Basic | Pro | Enterprise</span>
+          <div class="node-detail">3 tiers + freemium</div>
+          <span class="node-tag">Básico | Pro | Enterprise</span>
         </div>
         <div class="arr c-dark"><div class="line"></div><div class="head">▶</div></div>
 
-        <div class="diamond-wrap">
-          <div class="diamond d-orange"><span>IVV · INIA · Canales</span></div>
+        <div class="node node-teal">
+          <div class="node-title">Validación con Canales</div>
+          <div class="node-detail">IVV · Distribuidores regionales</div>
         </div>
         <div class="arr c-dark"><div class="line"></div><div class="head">▶</div></div>
 
@@ -119,39 +127,50 @@
     </div>
   </div>
 
-  <!-- ── CARRIL 2: MARKETING & VENTAS ── -->
+  <!-- ══════════════════════════════════════════════════════════
+       CARRIL 2: MARKETING & VENTAS
+       ══════════════════════════════════════════════════════════ -->
   <div class="lane lane-mkt">
     <div class="lane-label">
       <span class="lane-title">Marketing & Ventas</span>
-      <span class="lane-sub">Captación · Nutrición · Cierre</span>
+      <span class="lane-sub">Funnel de ventas</span>
     </div>
     <div class="lane-content">
 
-      <!-- Fila principal -->
+      <!-- Fila 1: Fundación → Contenidos → Webinars → Freemium → Calificación → Demo → Propuesta → Negociación → Contrato -->
       <div class="flow-row">
         <div class="arr dashed c-blue"><div class="line"></div><div class="head">▶</div></div>
 
         <div class="node node-blue">
           <div class="node-title">Fundación de Marketing</div>
-          <div class="node-detail">Website · Brand assets · Social media</div>
+          <div class="node-detail">Website · Brand assets · Social media · Director comercial: Gabriel Gatica</div>
         </div>
         <div class="arr c-dark"><div class="line"></div><div class="head">▶</div></div>
 
         <div class="branch-col">
-          <div class="node node-orange" style="max-width:160px;">
+          <div class="node node-orange" style="max-width:170px;">
             <div class="node-title">Marketing de Contenidos</div>
-            <div class="node-detail">Blog agrotecnología · Casos de éxito · Webinars técnicos · eBooks · Social media</div>
+            <div class="node-detail">Desde agosto 2026 · Blog agrotecnología · Casos de éxito · Social media · eBooks</div>
+            <span class="node-tag">ago 2026 en adelante</span>
           </div>
-          <div class="node node-orange" style="max-width:160px;">
+          <div class="node node-dark" style="max-width:170px;">
             <div class="node-title">Campañas de Pago</div>
-            <div class="node-detail">Google Ads · LinkedIn Ads · Programmatic</div>
+            <div class="node-detail">Google Ads · LinkedIn Ads · Cuando software esté operativo</div>
+            <span class="node-tag">Q1 2027 →</span>
           </div>
         </div>
         <div class="arr c-dark"><div class="line"></div><div class="head">▶</div></div>
 
-        <div class="node node-orange">
-          <div class="node-title">Lead Magnets</div>
-          <div class="node-detail">Demo gratuita · eBook fenología · Calculadora ROI</div>
+        <div class="node node-orange" style="max-width:170px;">
+          <div class="node-title">Webinars AgroFuturo</div>
+          <div class="node-detail">Serie gratuita online (Google Meet)</div>
+          <span class="node-tag">22/04 · 29/04 · 06/05 · 20/05</span>
+        </div>
+        <div class="arr c-dark"><div class="line"></div><div class="head">▶</div></div>
+
+        <div class="node node-blue" style="max-width:170px;">
+          <div class="node-title">Lead Magnets & Freemium</div>
+          <div class="node-detail">Acceso freemium · Demo guiada · Demo gratuita (según avance del software)</div>
         </div>
         <div class="arr c-dark"><div class="line"></div><div class="head">▶</div></div>
 
@@ -174,7 +193,7 @@
 
         <div class="node node-teal">
           <div class="node-title">Propuesta Comercial</div>
-          <div class="node-detail">Pricing según tier · Análisis ROI</div>
+          <div class="node-detail">Pricing según tier · Análisis ROI · UF/ha/temporada</div>
         </div>
         <div class="arr c-dark"><div class="line"></div><div class="head">▶</div></div>
 
@@ -185,13 +204,13 @@
 
         <div class="node node-teal">
           <div class="node-title">Negociación Comercial</div>
-          <div class="node-detail">Términos · SLA · Condiciones</div>
+          <div class="node-detail">Términos · SLA · Condiciones · Plan de pago anual</div>
         </div>
         <div class="arr c-dark"><div class="line"></div><div class="head">▶</div></div>
 
-        <div class="node node-green">
-          <div class="node-title">Firma de Contrato</div>
-          <div class="node-detail">SaaS Agreement firmado</div>
+        <div class="node node-green" style="max-width:180px;">
+          <div class="node-title">Contrato Digital Firmado</div>
+          <div class="node-detail">SaaS Agreement digital · Facturación electrónica · Botón de pago activado</div>
           <span class="node-tag" style="background:#d1fae5;color:#065f46;">💰 Nuevo Cliente</span>
         </div>
         <div class="arr c-green"><div class="line"></div><div class="head">▶</div></div>
@@ -199,10 +218,10 @@
       </div>
 
       <!-- Fila secundaria: Nurturing + Opp Lost -->
-      <div class="flow-row" style="padding-left: 548px; gap: 10px;">
+      <div class="flow-row" style="padding-left: 590px; gap: 10px;">
         <div class="node node-red" style="max-width:162px;">
           <div class="node-title">Nutrición de Leads</div>
-          <div class="node-detail">Secuencias email · Remarketing</div>
+          <div class="node-detail">Secuencias email · Remarketing (Q1 2027)</div>
         </div>
         <div class="sp" style="width:148px;"></div>
         <div class="node node-dark" style="max-width:136px;">
@@ -214,10 +233,12 @@
     </div>
   </div>
 
-  <!-- ── CARRIL 3: CLIENTE / USUARIO ── -->
+  <!-- ══════════════════════════════════════════════════════════
+       CARRIL 3: CLIENTE / VIAJE DEL USUARIO
+       ══════════════════════════════════════════════════════════ -->
   <div class="lane lane-cli">
     <div class="lane-label">
-      <span class="lane-title">Cliente / Usuario</span>
+      <span class="lane-title">Cliente / Viaje del Usuario</span>
       <span class="lane-sub">Awareness → Advocacy</span>
     </div>
     <div class="lane-content">
@@ -225,59 +246,65 @@
         <div class="arr dashed c-blue"><div class="line"></div><div class="head">▶</div></div>
 
         <div class="node node-blue">
-          <div class="node-title">Conciencia del Producto</div>
-          <div class="node-detail">Descubre Phenolo IA</div>
+          <div class="node-title">Descubrimiento</div>
+          <div class="node-detail">Webinar · Redes sociales · Referidos · Boca a boca</div>
         </div>
         <div class="arr c-blue"><div class="line"></div><div class="head">▶</div></div>
 
         <div class="node node-blue">
-          <div class="node-title">Consideración</div>
-          <div class="node-detail">Evalúa soluciones · Solicita demo</div>
+          <div class="node-title">Evaluación</div>
+          <div class="node-detail">Prueba freemium · Solicita demo guiada · Valida con pares</div>
         </div>
         <div class="arr c-blue"><div class="line"></div><div class="head">▶</div></div>
 
         <div class="node node-blue">
-          <div class="node-title">Experiencia de Demo</div>
-          <div class="node-detail">Ve el valor · Validación interna</div>
+          <div class="node-title">Demo & Prueba</div>
+          <div class="node-detail">Experimenta la plataforma · Validación interna · Consulta técnica</div>
         </div>
         <div class="arr c-blue"><div class="line"></div><div class="head">▶</div></div>
 
         <div class="node node-teal">
           <div class="node-title">Decisión de Compra</div>
-          <div class="node-detail">Aprobación interna · Presupuesto</div>
+          <div class="node-detail">Aprobación interna · Presupuesto · Firma contrato digital</div>
         </div>
         <div class="arr c-blue"><div class="line"></div><div class="head">▶</div></div>
 
-        <div class="sp" style="width:186px;"></div>
-
         <div class="node node-teal">
-          <div class="node-title">Setup Inicial de Cuenta</div>
-          <div class="node-detail">Integración API · Carga de datos</div>
+          <div class="node-title">Activación</div>
+          <div class="node-detail">Setup cuenta · Carga datos prediales · Integración sensores</div>
         </div>
         <div class="arr c-blue"><div class="line"></div><div class="head">▶</div></div>
 
         <div class="node node-green">
           <div class="node-title">Primera Predicción Exitosa</div>
-          <div class="node-detail">⏱ Time to Value alcanzado</div>
+          <div class="node-detail">⏱ Time to Value alcanzado · Alerta de riego accionable</div>
           <span class="node-tag" style="background:#d1fae5;color:#065f46;">▲ Hito clave</span>
+        </div>
+        <div class="arr c-blue"><div class="line"></div><div class="head">▶</div></div>
+
+        <div class="node node-green">
+          <div class="node-title">Adopción Plena</div>
+          <div class="node-detail">Uso regular · NPS ≥ 70 · Recomienda a otros agricultores</div>
+          <span class="node-tag" style="background:#d1fae5;color:#065f46;">🌟 Promotor</span>
         </div>
       </div>
     </div>
   </div>
 
-  <!-- ── CARRIL 4: CUSTOMER SUCCESS & SOPORTE ── -->
+  <!-- ══════════════════════════════════════════════════════════
+       CARRIL 4: POSTVENTA & SOPORTE
+       ══════════════════════════════════════════════════════════ -->
   <div class="lane lane-cs">
     <div class="lane-label">
-      <span class="lane-title">Customer Success & Soporte</span>
+      <span class="lane-title">Postventa & Soporte</span>
       <span class="lane-sub">Onboarding · Soporte · Renovación</span>
     </div>
     <div class="lane-content">
 
-      <!-- Fila principal CS -->
       <div class="flow-row">
         <div class="node node-purple">
-          <div class="node-title">Traspaso Ventas → CS</div>
-          <div class="node-detail">Transferencia de información cliente</div>
+          <div class="node-title">Traspaso Ventas → Postventa</div>
+          <div class="node-detail">Transferencia de información del cliente</div>
         </div>
         <div class="arr c-purple"><div class="line"></div><div class="head">▶</div></div>
 
@@ -286,7 +313,6 @@
         </div>
         <div class="arr c-purple"><div class="line"></div><div class="head">▶</div></div>
 
-        <!-- 3 onboardings apilados -->
         <div class="branch-col">
           <div class="node node-red" style="max-width:162px;">
             <div class="node-title">Onboarding Enterprise</div>
@@ -297,7 +323,7 @@
             <div class="node-detail">Sesiones 1:1 · Configuración API · Self-service + soporte</div>
           </div>
           <div class="node node-blue" style="max-width:162px;">
-            <div class="node-title">Onboarding Basic</div>
+            <div class="node-title">Onboarding Básico</div>
             <div class="node-detail">Self-service · Video tutoriales · Documentación</div>
           </div>
         </div>
@@ -305,13 +331,19 @@
 
         <div class="node node-purple">
           <div class="node-title">Capacitación de Usuarios</div>
-          <div class="node-detail">Training del equipo cliente · Uso de plataforma</div>
+          <div class="node-detail">Training equipo cliente · Uso de plataforma · Interpretación de alertas</div>
         </div>
         <div class="arr c-purple"><div class="line"></div><div class="head">▶</div></div>
 
         <div class="node node-purple">
           <div class="node-title">Seguimiento y Adopción</div>
           <div class="node-detail">Usage analytics · Health score · Check-ins 30/60/90 días</div>
+        </div>
+        <div class="arr c-purple"><div class="line"></div><div class="head">▶</div></div>
+
+        <div class="node node-purple" style="max-width:162px;">
+          <div class="node-title">Facturación & Modificaciones</div>
+          <div class="node-detail">Emisión facturas · Modificación de factura · Cobros anuales</div>
         </div>
         <div class="arr c-purple"><div class="line"></div><div class="head">▶</div></div>
 
@@ -339,7 +371,7 @@
 
         <div class="node node-success">
           <div class="node-title">Renovación Exitosa</div>
-          <div class="node-detail">💰 MRR Retenido</div>
+          <div class="node-detail">💰 ARR Retenido</div>
         </div>
       </div>
 
@@ -362,11 +394,13 @@
     </div>
   </div>
 
-  <!-- ── CARRIL 5: PARTNERS & CANALES ── -->
+  <!-- ══════════════════════════════════════════════════════════
+       CARRIL 5A: PARTNERS
+       ══════════════════════════════════════════════════════════ -->
   <div class="lane lane-par">
     <div class="lane-label">
-      <span class="lane-title">Partners & Canales</span>
-      <span class="lane-sub">IVV · INIA · Distribuidores</span>
+      <span class="lane-title">Partners Institucionales</span>
+      <span class="lane-sub">IVV · USM · Cooperativas</span>
     </div>
     <div class="lane-content">
       <div class="flow-row">
@@ -374,24 +408,71 @@
 
         <div class="node node-green">
           <div class="node-title">Acuerdos de Partnership</div>
-          <div class="node-detail">IVV · INIA · Distribuidores · Integradores</div>
+          <div class="node-detail">IVV · USM Lab to Market · Cooperativas agrícolas · Integradores</div>
         </div>
         <div class="arr c-green"><div class="line"></div><div class="head">▶</div></div>
 
         <div class="node node-green">
           <div class="node-title">Co-Marketing con Partners</div>
-          <div class="node-detail">Campañas conjuntas · Co-branding · Webinars técnicos</div>
+          <div class="node-detail">Campañas conjuntas · Co-branding · Webinars técnicos · Eventos agrícolas</div>
         </div>
         <div class="arr c-green"><div class="line"></div><div class="head">▶</div></div>
 
         <div class="node node-green">
-          <div class="node-title">Generación de Demanda Conjunta</div>
-          <div class="node-detail">Leads compartidos · Pipeline conjunto · Referidos</div>
+          <div class="node-title">Validación & Respaldo</div>
+          <div class="node-detail">Carta de apoyo institucional · Acceso a red de agricultores · Credibilidad técnica</div>
         </div>
         <div class="arr dashed c-green"><div class="line"></div><div class="head">▶</div></div>
 
         <div class="note-bubble">
-          Leads de partners ingresan al flujo de <strong>Calificación de Leads</strong> (carril Marketing)
+          Leads de partners ingresan al flujo de <strong>Calificación de Leads</strong> (Marketing & Ventas)
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════════════════════════
+       CARRIL 5B: CANALES DE DISTRIBUCIÓN
+       ══════════════════════════════════════════════════════════ -->
+  <div class="lane lane-canal">
+    <div class="lane-label">
+      <span class="lane-title">Canales de Distribución</span>
+      <span class="lane-sub">Directo · Indirecto · Digital</span>
+    </div>
+    <div class="lane-content">
+      <div class="flow-row">
+        <div class="arr dashed c-teal"><div class="line"></div><div class="head">▶</div></div>
+
+        <div class="node node-teal">
+          <div class="node-title">Canal Directo</div>
+          <div class="node-detail">Equipo ventas propio · Outbound · Visitas a terreno</div>
+          <span class="node-tag">40% pipeline</span>
+        </div>
+        <div class="arr c-teal"><div class="line"></div><div class="head">▶</div></div>
+
+        <div class="node node-teal">
+          <div class="node-title">Canal Digital / Inbound</div>
+          <div class="node-detail">Website · SEO · Contenidos · Formulario de contacto</div>
+          <span class="node-tag">30% pipeline · ago 2026+</span>
+        </div>
+        <div class="arr c-teal"><div class="line"></div><div class="head">▶</div></div>
+
+        <div class="node node-teal">
+          <div class="node-title">Canal Referidos</div>
+          <div class="node-detail">Agricultores piloto recomiendan · Programa de referral · Boca a boca</div>
+          <span class="node-tag">10% pipeline</span>
+        </div>
+        <div class="arr c-teal"><div class="line"></div><div class="head">▶</div></div>
+
+        <div class="node node-teal">
+          <div class="node-title">Canal B2B2C</div>
+          <div class="node-detail">Cooperativas · PRODESAL · Consultoras agronómicas · Distribuidores regionales</div>
+          <span class="node-tag">20% pipeline</span>
+        </div>
+        <div class="arr dashed c-teal"><div class="line"></div><div class="head">▶</div></div>
+
+        <div class="note-bubble" style="border-color:#0d7a85;">
+          Todos los canales convergen en el <strong>Funnel de Ventas</strong> (Marketing & Ventas)
         </div>
       </div>
     </div>
@@ -415,7 +496,7 @@
 
 
 <!-- ============================================================
-     MÉTRICAS KPI
+     MÉTRICAS KPI (solo ARR)
      ============================================================ -->
 <div class="info-panel panel-metrics" style="margin-bottom:20px;">
   <div class="info-panel-header">
@@ -425,14 +506,14 @@
   <div class="info-panel-body">
     <div class="metrics-grid">
       <div class="metric-card">
-        <div class="metric-label">MRR — Año 1</div>
-        <div class="metric-val">$15M CLP</div>
-        <div class="metric-sub">Meta mensual</div>
-      </div>
-      <div class="metric-card">
         <div class="metric-label">ARR — Año 1</div>
         <div class="metric-val">$180M CLP</div>
-        <div class="metric-sub">Ingresos anuales</div>
+        <div class="metric-sub">Ingresos anuales recurrentes</div>
+      </div>
+      <div class="metric-card">
+        <div class="metric-label">ARR — Año 2</div>
+        <div class="metric-val">$540M CLP</div>
+        <div class="metric-sub">+200% vs. Año 1</div>
       </div>
       <div class="metric-card m-warn">
         <div class="metric-label">CAC Target</div>
@@ -461,8 +542,8 @@
       </div>
       <div class="metric-card m-warn">
         <div class="metric-label">Inversión Seed</div>
-        <div class="metric-val">$500M CLP</div>
-        <div class="metric-sub">Runway 18 meses</div>
+        <div class="metric-val">~USD 400k</div>
+        <div class="metric-sub">Ángeles · Runway 18 meses</div>
       </div>
       <div class="metric-card m-purple">
         <div class="metric-label">Market Share</div>
@@ -486,27 +567,26 @@
   <div class="info-panel panel-finance">
     <div class="info-panel-header">
       <span style="font-size:20px">💹</span>
-      <h2>Proyecciones Financieras Detalladas</h2>
+      <h2>Proyecciones Financieras Detalladas (ARR)</h2>
     </div>
     <div class="info-panel-body">
       <div class="fin-grid">
         <div class="fin-col">
           <h3>Año 1 · 2026</h3>
           <ul>
-            <li><strong>MRR</strong><span>$15M CLP/mes</span></li>
             <li><strong>ARR</strong><span>$180M CLP</span></li>
             <li><strong>Clientes</strong><span>30 (10B · 15P · 5E)</span></li>
             <li><strong>Hectáreas</strong><span>2.000 ha</span></li>
-            <li><strong>Inversión Seed</strong><span>$500M CLP</span></li>
+            <li><strong>Inversión Seed</strong><span>~USD 400k (ángeles)</span></li>
             <li><strong>Equipo comercial</strong><span>5 personas</span></li>
             <li><strong>CAC</strong><span>$500k CLP/cliente</span></li>
-            <li><strong>Churn</strong><span>&lt; 5% mensual</span></li>
+            <li><strong>Churn</strong><span>&lt; 5% anual</span></li>
+            <li><strong>Precio promedio</strong><span>0,5–2 UF/ha/temporada</span></li>
           </ul>
         </div>
         <div class="fin-col">
           <h3>Año 2 · 2027</h3>
           <ul>
-            <li><strong>MRR</strong><span>$45M CLP/mes</span></li>
             <li><strong>ARR</strong><span>$540M CLP</span></li>
             <li><strong>Clientes</strong><span>90 (+200% vs Año 1)</span></li>
             <li><strong>Hectáreas</strong><span>7.000 ha</span></li>
@@ -514,12 +594,12 @@
             <li><strong>Equipo comercial</strong><span>10 personas</span></li>
             <li><strong>CAC</strong><span>$400k CLP (optimizado)</span></li>
             <li><strong>NRR</strong><span>110% (expansion revenue)</span></li>
+            <li><strong>Campañas de pago</strong><span>Activadas Q1 2027</span></li>
           </ul>
         </div>
         <div class="fin-col">
           <h3>Año 3 · 2028</h3>
           <ul>
-            <li><strong>MRR</strong><span>$80M CLP/mes</span></li>
             <li><strong>ARR</strong><span>$960M CLP</span></li>
             <li><strong>Clientes</strong><span>200+ clientes</span></li>
             <li><strong>Hectáreas</strong><span>15.000+ ha</span></li>
@@ -527,6 +607,7 @@
             <li><strong>Equipo comercial</strong><span>15 personas</span></li>
             <li><strong>LTV:CAC</strong><span>12:1</span></li>
             <li><strong>Break-even</strong><span>Preparado Año 4</span></li>
+            <li><strong>Expansión</strong><span>Coquimbo + Atacama</span></li>
           </ul>
         </div>
       </div>
@@ -545,10 +626,10 @@
           <h3>Canales de Adquisición</h3>
           <ul>
             <li><strong>Directo:</strong> Equipo ventas outbound — 40% pipeline</li>
-            <li><strong>Inbound:</strong> Content marketing + SEO — 30% pipeline</li>
-            <li><strong>Partners:</strong> IVV, INIA, distribuidores — 20% pipeline</li>
+            <li><strong>Inbound:</strong> Content marketing + SEO (ago 2026+) — 30%</li>
+            <li><strong>Partners:</strong> IVV, USM Lab to Market, cooperativas — 20%</li>
             <li><strong>Referidos:</strong> Programa referral agricultores — 10%</li>
-            <li><strong>Eventos:</strong> Ferias agrícolas · Webinars técnicos</li>
+            <li><strong>Webinars:</strong> 22/04 · 29/04 · 06/05 · 20/05 · 2026</li>
           </ul>
         </div>
         <div class="gtm-col">
@@ -576,7 +657,7 @@
         <div class="ops-col">
           <h3>Ciclo de Ventas Promedio</h3>
           <ul>
-            <li><strong>Basic:</strong> 2 – 3 semanas (low-touch, self-service)</li>
+            <li><strong>Básico:</strong> 2 – 3 semanas (low-touch, self-service)</li>
             <li><strong>Pro:</strong> 4 – 6 semanas (demo + propuesta)</li>
             <li><strong>Enterprise:</strong> 8 – 12 semanas (PoC + negociación)</li>
           </ul>
@@ -584,18 +665,19 @@
         <div class="ops-col">
           <h3>Onboarding — Time to Value</h3>
           <ul>
-            <li><strong>Basic:</strong> 1 semana (autoservicio + videos)</li>
+            <li><strong>Básico:</strong> 1 semana (autoservicio + videos)</li>
             <li><strong>Pro:</strong> 2 – 3 semanas (sesiones 1:1 + API)</li>
             <li><strong>Enterprise:</strong> 4 – 6 semanas (implementación custom)</li>
           </ul>
         </div>
         <div class="ops-col">
-          <h3>Customer Success Touchpoints</h3>
+          <h3>Touchpoints Postventa</h3>
           <ul>
             <li><strong>Día 1:</strong> Kickoff onboarding</li>
             <li><strong>30/60/90:</strong> Check-ins de adopción</li>
             <li><strong>QBRs:</strong> Trimestral para Enterprise</li>
             <li><strong>90 días antes:</strong> Conversación de renovación</li>
+            <li><strong>Facturación:</strong> Anual · Modificable vía soporte</li>
           </ul>
         </div>
       </div>
@@ -610,12 +692,12 @@
     </div>
     <div class="info-panel-body">
       <ul class="risk-list">
-        <li><strong>Adopción lenta:</strong> Pilotos gratuitos con early adopters · Casos de éxito documentados</li>
+        <li><strong>Adopción lenta:</strong> Freemium + demos guiadas con early adopters · Casos de éxito documentados</li>
         <li><strong>Churn alto inicial:</strong> Onboarding reforzado · Identificación proactiva de cuentas at-risk</li>
-        <li><strong>CAC elevado:</strong> Optimización inbound · Programa referral · Partnerships escalables</li>
-        <li><strong>Competencia:</strong> Diferenciación técnica (biogemelos, IA) · Foco vertical en frutales de exportación</li>
+        <li><strong>CAC elevado:</strong> Contenidos inbound (ago 2026+) · Campañas de pago (Q1 2027)</li>
+        <li><strong>Competencia:</strong> Diferenciación técnica (biogemelos, IA) · Foco vertical frutales exportación</li>
         <li><strong>Estacionalidad agrícola:</strong> Pricing anual prepagado · Cobertura multi-temporada</li>
-        <li><strong>Runway financiero:</strong> Hitos claros de inversión · Control burn rate · Revenue milestones definidos</li>
+        <li><strong>Runway financiero:</strong> Ángeles ~USD 400k · Control burn rate · ARR milestones definidos</li>
       </ul>
     </div>
   </div>
