@@ -108,7 +108,7 @@ body {
   align-items: center;
   justify-content: center;
   padding: 12px 18px;
-  border-radius: 50%;
+  border-radius: 999px;
   background: rgba(255,255,255,0.18);
   color: #f8fafc;
   font-weight: 700;
