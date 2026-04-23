@@ -6,29 +6,29 @@
 /* ---- VARIABLES ---- */
 :root {
   /* Colores por carril */
-  --dir-bg: #e4f3f7;
-  --dir-accent: #0d7a85;
-  --dir-light: #f0f9fb;
+  --dir-bg: #e6f3ff;
+  --dir-accent: #008cd8;
+  --dir-light: #f0f9ff;
 
-  --mkt-bg: #fef6e4;
-  --mkt-accent: #d97706;
-  --mkt-light: #fffdf0;
+  --mkt-bg: #e0f0ff;
+  --mkt-accent: #0066cc;
+  --mkt-light: #f0f7ff;
 
-  --cli-bg: #e6f2fb;
-  --cli-accent: #2563eb;
-  --cli-light: #f2f8fd;
+  --cli-bg: #d9e8ff;
+  --cli-accent: #004499;
+  --cli-light: #ecf2ff;
 
-  --cs-bg: #f0e8fa;
-  --cs-accent: #7c3aed;
-  --cs-light: #f8f3fc;
+  --cs-bg: #cce0ff;
+  --cs-accent: #002266;
+  --cs-light: #e6f0ff;
 
-  --par-bg: #e6f7ee;
-  --par-accent: #16a34a;
-  --par-light: #f2fbf5;
+  --par-bg: #b3d1ff;
+  --par-accent: #001133;
+  --par-light: #d9e6ff;
 
-  --canal-bg: #e0f4f1;
-  --canal-accent: #0d7a85;
-  --canal-light: #f0fbf9;
+  --canal-bg: #99c2ff;
+  --canal-accent: #008cd8;
+  --canal-light: #cce4ff;
 
   /* Nodos */
   --node-radius: 8px;
@@ -53,7 +53,7 @@
    ============================================================ */
 body {
   font-family: var(--font-body);
-  background: linear-gradient(140deg, #0f766e 0%, #047857 55%, #065f46 100%);
+  background: linear-gradient(140deg, #008cd8 0%, #005a8a 55%, #003d5c 100%);
   min-height: 100vh;
   padding: 24px;
   color: #1a2535;
@@ -69,7 +69,7 @@ body {
 .page-header .brand-tag {
   display: inline-block;
   background: rgba(255,255,255,0.18);
-  color: #a7f3d0;
+  color: #b3d9ff;
   font-size: 11px;
   font-weight: 700;
   letter-spacing: 2px;
@@ -77,7 +77,7 @@ body {
   padding: 4px 14px;
   border-radius: 20px;
   margin-bottom: 10px;
-  border: 1px solid rgba(167,243,208,0.4);
+  border: 1px solid rgba(179,217,255,0.4);
 }
 .page-header h1 {
   font-family: var(--font-display);
@@ -88,96 +88,12 @@ body {
 }
 .page-header .subtitle {
   font-size: 14px;
-  color: #6ee7b7;
+  color: #66b3ff;
   margin-top: 6px;
   font-weight: 500;
 }
-.page-actions {
-  margin-top: 18px;
-}
-.button {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  padding: 12px 18px;
-  border-radius: 999px;
-  background: rgba(255,255,255,0.18);
-  color: #f8fafc;
-  font-weight: 700;
-  text-decoration: none;
-  border: 1px solid rgba(255,255,255,0.28);
-  transition: transform 0.2s ease, background 0.2s ease;
-}
-.button:hover {
-  transform: translateY(-1px);
-  background: rgba(255,255,255,0.28);
-}
-.canvas-page {
-  max-width: 1240px;
-  margin: 0 auto 32px;
-  background: rgba(255,255,255,0.96);
-  border-radius: 24px;
-  padding: 28px;
-  box-shadow: var(--shadow-lg);
-}
-.canvas-page .page-header {
-  text-align: left;
-}
-.canvas-intro {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-  gap: 18px;
-  margin-bottom: 22px;
-}
-.canvas-grid {
-  display: grid;
-  grid-template-columns: 1fr 1.15fr 1fr;
-  gap: 16px;
-}
-.canvas-block {
-  background: #f8fafc;
-  border-radius: 16px;
-  border: 1px solid #e2e8f0;
-  padding: 20px;
-  min-height: 130px;
-  box-shadow: var(--shadow-sm);
-}
-.canvas-block h2 {
-  font-family: var(--font-display);
-  font-size: 13px;
-  letter-spacing: 0.5px;
-  text-transform: uppercase;
-  margin-bottom: 10px;
-  color: #0f172a;
-}
-.canvas-block p,
-.canvas-block ul {
-  font-size: 13px;
-  line-height: 1.6;
-  color: #334155;
-}
-.canvas-block ul {
-  padding-left: 18px;
-  margin-top: 6px;
-}
-.canvas-block li {
-  margin-bottom: 6px;
-}
-.span-2 {
-  grid-column: span 2;
-}
-.canvas-note {
-  color: #0f766e;
-  font-size: 13px;
-  margin-top: 8px;
-}
 @media (max-width: 980px) {
   .pricing-section {
-    grid-template-columns: 1fr;
-  }
-  .canvas-grid {
     grid-template-columns: 1fr;
   }
   .lane-label {
@@ -191,10 +107,10 @@ body {
    ============================================================ */
 .marketing-invest-banner {
   background: rgba(255,255,255,0.15);
-  border: 1px solid rgba(167,243,208,0.4);
+  border: 1px solid rgba(179,217,255,0.4);
   border-radius: 10px;
   padding: 12px 20px;
-  color: #d1fae5;
+  color: #d1e7ff;
   font-size: 12.5px;
   margin-bottom: 18px;
   text-align: center;
@@ -202,7 +118,7 @@ body {
 }
 .marketing-invest-banner span {
   font-weight: 700;
-  color: #a7f3d0;
+  color: #b3d9ff;
 }
 
 /* ============================================================
@@ -223,18 +139,18 @@ body {
   transition: transform 0.2s;
 }
 .tier-card:hover { transform: translateY(-2px); box-shadow: var(--shadow-lg); }
-.tier-card.basic  { border-color: #10b981; }
-.tier-card.pro    { border-color: #3b82f6; }
-.tier-card.ent    { border-color: #8b5cf6; }
+.tier-card.basic  { border-color: #66b3ff; }
+.tier-card.pro    { border-color: #008cd8; }
+.tier-card.ent    { border-color: #004499; }
 
 .tier-card h3 {
   font-family: var(--font-display);
   font-size: 16px;
   margin-bottom: 4px;
 }
-.tier-card.basic h3 { color: #059669; }
-.tier-card.pro h3   { color: #2563eb; }
-.tier-card.ent h3   { color: #7c3aed; }
+.tier-card.basic h3 { color: #4da6ff; }
+.tier-card.pro h3   { color: #008cd8; }
+.tier-card.ent h3   { color: #003d5c; }
 
 .tier-card .price {
   font-size: 19px;
@@ -276,15 +192,15 @@ body {
   font-weight: 900;
   font-size: 14px;
 }
-.tier-card.basic ul li::before  { color: #10b981; }
-.tier-card.pro ul li::before    { color: #3b82f6; }
-.tier-card.ent ul li::before    { color: #8b5cf6; }
+.tier-card.basic ul li::before  { color: #66b3ff; }
+.tier-card.pro ul li::before    { color: #008cd8; }
+.tier-card.ent ul li::before    { color: #004499; }
 
 .freemium-badge {
   display: inline-block;
-  background: #ecfdf5;
-  border: 1.5px solid #6ee7b7;
-  color: #065f46;
+  background: #e6f3ff;
+  border: 1.5px solid #66b3ff;
+  color: #003d5c;
   font-size: 10px;
   font-weight: 700;
   padding: 3px 10px;

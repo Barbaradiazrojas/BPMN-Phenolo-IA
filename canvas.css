@@ -1,0 +1,196 @@
+/* ============================================================
+   PHENOLO IA — CANVAS COMERCIAL
+   Hoja de Estilos Principal
+   ============================================================ */
+
+/* ---- VARIABLES ---- */
+:root {
+  /* Colores por carril */
+  --dir-bg: #e6f3ff;
+  --dir-accent: #008cd8;
+  --dir-light: #f0f9ff;
+
+  --mkt-bg: #e0f0ff;
+  --mkt-accent: #0066cc;
+  --mkt-light: #f0f7ff;
+
+  --cli-bg: #d9e8ff;
+  --cli-accent: #004499;
+  --cli-light: #ecf2ff;
+
+  --cs-bg: #cce0ff;
+  --cs-accent: #002266;
+  --cs-light: #e6f0ff;
+
+  --par-bg: #b3d1ff;
+  --par-accent: #001133;
+  --par-light: #d9e6ff;
+
+  --canal-bg: #99c2ff;
+  --canal-accent: #008cd8;
+  --canal-light: #cce4ff;
+
+  /* Nodos */
+  --node-radius: 8px;
+  --shadow-sm: 0 1px 4px rgba(0,0,0,0.10);
+  --shadow-md: 0 2px 10px rgba(0,0,0,0.13);
+  --shadow-lg: 0 6px 24px rgba(0,0,0,0.15);
+
+  /* Tipografía */
+  --font-display: 'Space Grotesk', sans-serif;
+  --font-body: 'DM Sans', sans-serif;
+}
+
+/* ---- RESET ---- */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* ============================================================
+   GLOBAL
+   ============================================================ */
+body {
+  font-family: var(--font-body);
+  background: linear-gradient(140deg, #008cd8 0%, #005a8a 55%, #003d5c 100%);
+  min-height: 100vh;
+  padding: 24px;
+  color: #1a2535;
+}
+
+/* ============================================================
+   CABECERA
+   ============================================================ */
+.page-header {
+  text-align: center;
+  margin-bottom: 28px;
+}
+.page-header .brand-tag {
+  display: inline-block;
+  background: rgba(255,255,255,0.18);
+  color: #b3d9ff;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 4px 14px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  border: 1px solid rgba(179,217,255,0.4);
+}
+.page-header h1 {
+  font-family: var(--font-display);
+  font-size: 28px;
+  color: #fff;
+  letter-spacing: -0.5px;
+  line-height: 1.2;
+}
+.page-header .subtitle {
+  font-size: 14px;
+  color: #66b3ff;
+  margin-top: 6px;
+  font-weight: 500;
+}
+.page-actions {
+  margin-top: 18px;
+}
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 18px;
+  border-radius: 999px;
+  background: rgba(255,255,255,0.18);
+  color: #f8fafc;
+  font-weight: 700;
+  text-decoration: none;
+  border: 1px solid rgba(255,255,255,0.28);
+  transition: transform 0.2s ease, background 0.2s ease;
+}
+.button:hover {
+  transform: translateY(-1px);
+  background: rgba(255,255,255,0.28);
+}
+.canvas-page {
+  max-width: 1240px;
+  margin: 0 auto 32px;
+  background: rgba(255,255,255,0.96);
+  border-radius: 24px;
+  padding: 28px;
+  box-shadow: var(--shadow-lg);
+}
+.canvas-page .page-header {
+  text-align: left;
+}
+.canvas-intro {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+  margin-bottom: 22px;
+}
+.canvas-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.15fr 1fr;
+  gap: 16px;
+}
+.canvas-block {
+  background: #f8fafc;
+  border-radius: 16px;
+  border: 1px solid #e2e8f0;
+  padding: 20px;
+  min-height: 130px;
+  box-shadow: var(--shadow-sm);
+}
+.canvas-block h2 {
+  font-family: var(--font-display);
+  font-size: 13px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  color: #0f172a;
+}
+.canvas-block p,
+.canvas-block ul {
+  font-size: 13px;
+  line-height: 1.6;
+  color: #334155;
+}
+.canvas-block ul {
+  padding-left: 18px;
+  margin-top: 6px;
+}
+.canvas-block li {
+  margin-bottom: 6px;
+}
+.span-2 {
+  grid-column: span 2;
+}
+.canvas-note {
+  color: #008cd8;
+  font-size: 13px;
+  margin-top: 8px;
+}
+
+/* ============================================================
+   PIE DE PÁGINA
+   ============================================================ */
+.page-footer {
+  text-align: center;
+  padding: 20px;
+  color: #6ee7b7;
+  font-size: 12px;
+  line-height: 1.8;
+}
+.page-footer strong { color: #a7f3d0; }
+
+/* ============================================================
+   RESPONSIVE
+   ============================================================ */
+@media (max-width: 980px) {
+  .canvas-grid {
+    grid-template-columns: 1fr;
+  }
+}
